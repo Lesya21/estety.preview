@@ -188,4 +188,8 @@
 	.popup-content__wrapper img {
 		display: none;
 	}
+
+	.popup-content__text {
+		margin: auto;
+	}
 }

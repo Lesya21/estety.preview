@@ -171,4 +171,12 @@
 	.about-more__item-text.open p {
 		font-size: 16px;
 	}
+
+	.footer__wrapper {
+		flex-direction: column;
+	}
+
+	.footer__wrapper img {
+		margin-bottom: 40px;
+	}
 }

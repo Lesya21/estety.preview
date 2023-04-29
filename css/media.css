@@ -1,0 +1,174 @@
+@media (min-width: 1026px) {
+	.header-burger,
+	.header-burger-close {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1025px) {
+	h1 {
+		font-size: 38px;
+	}
+
+	h2 {
+		font-size: 32px;
+	}
+
+	.header-wrapper {
+		width: 95%;
+	}
+
+	main {
+		margin-top: 180px;
+	}
+
+	.header-menu {
+		position: fixed;
+		flex-direction: column;
+	    right: 0;
+	    top: 0;
+	    background: white;
+	    padding: 50px 0 0 30px;
+	    height: 100vh;
+	    z-index: 50;
+	    width: 55%;
+	    background: #93738a;
+		transition: 0.3s;
+		transform: translateX(100%);
+	}
+
+	.header-menu.open {
+		transform: translateX(0);
+	}
+
+	.header-menu.open li {
+		margin: 20px 0;
+	}
+
+	.header-menu.open li a {
+		color: #e5e1de;
+		font-size: 18px;
+	}
+
+	.popup-close {
+		top: 10px;
+	}
+
+	.popup-content {
+		height: 90%;
+		text-align: center;
+	}
+
+	.popup-content__text {
+		width: 90%;
+		margin: 0;
+	}
+
+	.popup-content .button {
+		margin: 30px auto;
+	}
+
+	.popup-content__wrapper {
+		flex-direction: column;
+	}
+
+	.popup-content__text p {
+		font-size: 16px;
+		padding-right: 0;
+	}
+
+	.popup-content img {
+		height: 400px;
+	}
+
+	.banner-block {
+		height: 350px;
+		margin: 70px auto;
+	}
+
+	.slick-next {
+		right: 0;
+	}
+
+	.slick-prev {
+		left: 0;
+	}
+
+	.questions__wrapper {
+		flex-direction: column;
+	}
+
+	.questions {
+		height: auto;
+		padding-bottom: 40px;
+	}
+
+	.questions img {
+		width: 100%;
+	}
+
+	.questions__content {
+		margin-left: 0;
+	}
+
+	.contacts__content {
+		flex-direction: column;
+	}
+
+	.contacts__address {
+		margin-bottom: 50px;
+	}
+
+	.contacts iframe {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 34px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	p.anons {
+		font-size: 16px;
+	}
+
+	main {
+		margin-top: 150px;
+	}
+
+	.popup-content img {
+		height: 300px;
+	}
+
+	.header-wrapper {
+		width: 91%;
+	}
+
+	.header-logo img {
+		max-width: 150px;
+	}
+
+	.banner-block {
+		height: 250px;
+		margin: 50px auto;
+	}
+
+	.ya-reviews {
+		width: 100%;
+	}
+
+	.about-more__item-title {
+		font-size: 20px;
+		line-height: 28px;
+		display: flex;
+	}
+
+	.about-more__item-text.open p {
+		font-size: 16px;
+	}
+}

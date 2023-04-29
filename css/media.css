@@ -61,8 +61,7 @@
 
 	.popup-content__text {
 		width: 90%;
-		margin: auto;
-		z-index: 5;
+		margin: 0;
 	}
 
 	.popup-content .button {
@@ -186,6 +185,11 @@
 		margin-bottom: 40px;
 	}
 
+	.popup-content__text {
+		margin: auto;
+		z-index: 5;
+	}
+
 	.popup-content__wrapper img {
 	    position: absolute;
 	    left: 0;
@@ -194,5 +198,6 @@
 	    height: 100%;
 	    z-index: 1;
 	    opacity: 0.1;
+	    object-fit: cover;
 	}
 }

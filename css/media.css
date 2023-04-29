@@ -184,4 +184,8 @@
 	.footer__wrapper img {
 		margin-bottom: 40px;
 	}
+
+	.popup-content__wrapper img {
+		display: none;
+	}
 }

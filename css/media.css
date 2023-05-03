@@ -70,6 +70,7 @@
 
 	.popup-content__wrapper {
 		flex-direction: column;
+		justify-content: center;
 	}
 
 	.popup-content__text p {

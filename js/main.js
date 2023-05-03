@@ -1,6 +1,6 @@
-const DISCOUNT_POPUP_SHOW_DELAY = 5000;
+const DISCOUNT_POPUP_SHOW_DELAY = 10000; //милисекунды
 const DISCOUNT_POPUP_COOKIE_NAME = 'isDiscontPopupShow';
-const DISCOUNT_POPUP_COOKIE_EXPIRE = 120;
+const DISCOUNT_POPUP_COOKIE_EXPIRE = 45000; //секунды
 
 const setCookie = (name, value, expire) => {
    

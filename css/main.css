@@ -149,17 +149,7 @@ main {
 }
 
 .main-slider {
-	width: 1440px;
-	width: 100%;
-	height: 200px;
-	margin: 100px 0;
-}
-
-.main-slider__slide {
-	background: #fff;
-	width: 100%;
-	height: 200px;
-	border-radius: 20px;
+	display: none;
 }
 
 .price-slider {

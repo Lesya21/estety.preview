@@ -25,8 +25,13 @@ const showDiscountPopup = () => {
    }
 }
 
-document.addEventListener("DOMContentLoaded", function(event) { 
-  $('.price-slider').slick({
+document.addEventListener("DOMContentLoaded", function(event) {
+   $('.main-slider').slick({
+         arrows: false,
+         autoplay: true
+   });
+
+   $('.price-slider').slick({
    		arrows: true
    });
 

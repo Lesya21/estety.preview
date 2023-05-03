@@ -1,9 +1,9 @@
-const DISCOUNT_POPUP_SHOW_DELAY = 2000;
+const DISCOUNT_POPUP_SHOW_DELAY = 5000;
 const DISCOUNT_POPUP_COOKIE_NAME = 'isDiscontPopupShow';
-const DISCOUNT_POPUP_COOKIE_EXPIRE = 1000;
+const DISCOUNT_POPUP_COOKIE_EXPIRE = 120;
 
 const setCookie = (name, value, expire) => {
-   console.log(`${name}=${value};max-age=${expire}`)
+   
    document.cookie = `${name}=${value}; max-age=${expire}`
 }
 

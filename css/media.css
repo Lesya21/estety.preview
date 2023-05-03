@@ -15,7 +15,7 @@
 	}
 
 	.header-wrapper {
-		width: 95%;
+		width: 100%;
 	}
 
 	main {
@@ -168,10 +168,6 @@
 
 	.popup-content img {
 		height: 300px;
-	}
-
-	.header-wrapper {
-		width: 91%;
 	}
 
 	.header-logo img {

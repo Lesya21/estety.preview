@@ -186,6 +186,14 @@
 		margin-bottom: 40px;
 	}
 
+	.questions__wrapper {
+		padding: 0;
+	}
+
+	.questions__content {
+		padding: 20px;
+	}
+
 	.popup-content__text {
 		margin: auto;
 		z-index: 5;

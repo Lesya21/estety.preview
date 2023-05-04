@@ -242,7 +242,7 @@ main {
 .button {
     text-decoration: none;
     max-width: 230px;
-    height: 55px;
+    height: 60px;
     background: #93738a;
     color: #fff;
     border-radius: 10px;
@@ -439,25 +439,36 @@ main {
 	font-size: 22px;
 }
 
+.contacts iframe {
+	border-radius: 10px;
+}
+
 .container__tel {
+	display: flex;
+	align-items: center;
 	margin: 30px 0 40px;
 }
 
 .container__tel a {
+	margin-left: 20px;
+	display: inline-block;
 	text-decoration: none;
-	border-bottom: 1px solid;
 	color: #484849;
-}
-
-.container__tel a:hover {
-	color: #93738a;
+	border-bottom: 1px solid transparent;
+	transition: all 0.3s;
 }
 
 .contacts__icon {
-	width: 40px;
-	height: 40px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+	text-decoration: none;
+	color: #484849;
+}
+
+.contacts__icon span {
 	display: inline-block;
-	margin-right: 30px;
+	margin-left: 20px;
 }
 
 .contacts__icon img {

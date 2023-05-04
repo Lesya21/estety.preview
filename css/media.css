@@ -147,6 +147,10 @@
 	.contacts iframe {
 		width: 100%;
 	}
+
+	.ya-reviews {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -177,10 +181,6 @@
 	.banner-block {
 		height: 250px;
 		margin: 50px auto;
-	}
-
-	.ya-reviews {
-		width: 100%;
 	}
 
 	.about-more {
